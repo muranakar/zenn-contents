@@ -1,7 +1,7 @@
 {
   "name": "zenn-contents",
   "version": "1.0.0",
-  "description": "",
+  "description": "* [📘 How to use](https://zenn.dev/zenn/articles/zenn-cli-guide)# zenn-contents",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,12 +13,20 @@
     "npm": "^10.8.2",
     "textlint-rule-no-doubled-joshi": "^5.1.0",
     "textlint-rule-no-dropping-the-ra": "^3.0.0",
-    "zenn-cli": "^0.1.154"
+    "zenn-cli": "^0.1.158"
   },
   "devDependencies": {
     "textlint": "^14.0.4",
     "textlint-rule-preset-ja-spacing": "^2.4.3",
     "textlint-rule-preset-ja-technical-writing": "^10.0.1",
     "textlint-rule-spellcheck-tech-word": "^5.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muranakar/zenn-contents.git"
+  },
+  "bugs": {
+    "url": "https://github.com/muranakar/zenn-contents/issues"
+  },
+  "homepage": "https://github.com/muranakar/zenn-contents#readme"
 }
