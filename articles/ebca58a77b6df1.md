@@ -284,3 +284,7 @@ SQLite の基本的な使い方について説明しました：
 4. 大量データの場合はトランザクションを使用する
 
 これらの基本を押さえることで、安全で効率的なデータベース操作が可能になります。
+
+## 参照
+
+https://github.com/tekartik/sqflite/blob/master/sqflite/doc/sql.md
