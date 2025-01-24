@@ -1,5 +1,5 @@
 ---
-title: "SQLiteの基本的な使用方法"
+title: "【Flutter】SQLiteの基本的な使用方法"
 emoji: "🐕"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [Flutter, Dart, SQlite]
