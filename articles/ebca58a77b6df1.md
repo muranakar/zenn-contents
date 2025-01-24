@@ -7,6 +7,10 @@ published: true
 published_at: 2025-01-30 07:00 # 未来の日時を指定する
 ---
 
+## 使用するライブラリ
+
+https://pub.dev/packages/sqflite
+
 ## データベースの基本操作
 
 SQLite では、データは「テーブル」という形で管理されます。テーブルは以下のような特徴があります：
