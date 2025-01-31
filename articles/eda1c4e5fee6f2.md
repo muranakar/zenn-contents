@@ -2,26 +2,28 @@
 title: "============【Flutter】SQLiteでのユニットテストの実装方法"
 emoji: "😎"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: []
+topics: [Flutter, Dart, SQlite]
 published: false
 ---
 
+## 使用するライブラリ
+
+https://pub.dev/packages/sqflite
+
 ## はじめに
 
-Flutter アプリケーションで Sqlite データベースのテストを行う方法について、詳しく説明していきます。Flutter でデータベースのテストを行う際には、いくつかの制限事項や注意点がありますが、適切な方法を使うことで効果的なテストが可能です。
+Flutter アプリケーションで Sqlite データベースのテストを行う方法について、説明していきます。
 
 ## テスト実装の基本的な考え方
 
 Sqflite でのテストには主に 2 つのアプローチがあります：
 
-1. Flutter Driver を使用したテスト
-2. sqflite_common_ffi を使用したテスト
+1. `Flutter Driver` を使用したテスト
+2. `sqflite_common_ffi` を使用したテスト
 
 今回は、より一般的でシンプルな`sqflite_common_ffi`を使用したアプローチを詳しく見ていきます。
 
 ## sqflite_common_ffi を使用したテスト実装
-
-### 基本的なテストの実装例
 
 ```dart
 // テストに必要なパッケージのインポート
@@ -64,7 +66,7 @@ void main() {
       {'id': 2, 'title': 'テスト商品2'}
     ]);
 
-    // データベースを閉じる
+    // データベースを閉じることを忘れずに
     await db.close();
   });
 }
@@ -108,6 +110,7 @@ void main() {
       {'id': 1, 'value': 'テストデータ'}
     ]);
 
+    // データベースを閉じることを忘れずに
     await db.close();
   });
 }
