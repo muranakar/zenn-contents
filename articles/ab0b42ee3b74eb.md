@@ -4,7 +4,7 @@ emoji: "👌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [Flutter, Dart]
 published: true
-published_at: 2025-03-01 07:00 # 未来の日時を指定する
+published_at: 2025-03-02 07:00 # 未来の日時を指定する
 ---
 
 ## はじめに
