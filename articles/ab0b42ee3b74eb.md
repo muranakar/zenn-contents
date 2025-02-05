@@ -45,7 +45,7 @@ void _captureScreenshot() async {
 
 ## キャプチャ対象の Widget 実装
 
-次に、実際にキャプチャする Widget の実装方法を見ていきましょう。
+次に、実際にキャプチャする Widget の実装方法です。
 
 ```dart:main.dart
 Screenshot(
@@ -58,7 +58,7 @@ Screenshot(
 
 ## 非表示 Widget のキャプチャ
 
-画面に表示されていない Widget もキャプチャできる機能を実装してみましょう。これは、カスタマイズされたプレビュー画像を生成する際などに便利です。
+画面に表示されていない Widget もキャプチャできる機能を実装です。これは、カスタマイズされたプレビュー画像を生成する際などに便利です。
 
 ```dart:main.dart
 void _captureInvisibleWidget() async {
